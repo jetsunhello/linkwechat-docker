@@ -15,8 +15,9 @@ unzip ../link-wechat/sql/tables_xxl_job.zip -d ./mysql/db
 
 # copy html
 echo "begin copy html "
-cp -r ../link-we-chat-front/linkwe-pc/pc/** ./nginx/html/pc
-cp -r ../link-we-chat-front/linkwe-mobile/h5/** ./nginx/html/mobile
+cp -r ../link-we-chat-front/vue3-lw-pc/dist/** ./nginx/html/pc
+# cp -r ../link-we-chat-front/linkwe-pc/pc/** ./nginx/html/pc
+# cp -r ../link-we-chat-front/linkwe-mobile/h5/** ./nginx/html/mobile
 
 
 # copy jar

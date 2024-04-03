@@ -8,6 +8,7 @@ spring:
     nacos:
       # 配置中心
       config:
+        namespace: public
         server-addr: lw-nacos:8848
         file-extension: yml
         config-retry-time: 300000
@@ -30,6 +31,7 @@ spring:
     nacos:
       # 配置中心
       config:
+        namespace: public
         server-addr: lw-nacos:8848
         # 这个就表示 在我们nacos命名空间id为 dev中 有一个data-id 为 demo-service.yml 的配置文件 读取这个里面的配置
         file-extension: yml
