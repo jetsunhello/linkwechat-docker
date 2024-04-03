@@ -4,9 +4,9 @@
  */
 const envs = {
   production: {
-    DOMAIN: 'http://127.0.0.1',
+    DOMAIN: 'http://h2o-llm.elenet.me',
     BASE_URL: './', // 路由基础路径
-    BASE_API: 'http://127.0.0.1/api',
+    BASE_API: 'http://h2o-llm.elenet.me/api',
     SYSTEM_API: '/api',
     _ISGZIP: true, // 是否开启gzip压缩
     _ISCDN: true, // 是否开启cdn加速
